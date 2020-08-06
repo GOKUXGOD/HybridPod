@@ -11,7 +11,7 @@
 		4F16923D46CA6DCF843A57DA4F0BDCF0 /* Pods-HybridPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D66642842182D6CD0C3FE7932101CD53 /* Pods-HybridPod_Tests-dummy.m */; };
 		50FA53EE7A823EFD356BF274B9C9933C /* Pods-HybridPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BCE776E33C2508C4386407D375E1AC2 /* Pods-HybridPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7CEBD07EDD29503B202EE541F60B3328 /* HybridPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C9DA19056957D3A96C4EED50CCCECF5 /* HybridPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D38FF6524DBDD88009A4219 /* HybridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D38FF6424DBDD88009A4219 /* HybridView.swift */; };
+		7D38FF6724DBE237009A4219 /* HybridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D38FF6624DBE237009A4219 /* HybridView.swift */; };
 		81572CEC73587359DBDC5DBB9100FA74 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A038BF56A8A94AAB22EE2568EFEF2F3 /* ReplaceMe.swift */; };
 		9C62662D1B82BB598C30007DABD3D8FE /* HybridPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFAEF3EC9AC9F9D1BC8658C59313A23 /* HybridPod-dummy.m */; };
 		C037893555B485DB5FFB9E3862292FD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -42,7 +42,7 @@
 		6FFAEF3EC9AC9F9D1BC8658C59313A23 /* HybridPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HybridPod-dummy.m"; sourceTree = "<group>"; };
 		71D5FE166D9BE0843B7AC4A61F8CAB03 /* Pods-HybridPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HybridPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7CBFD97AE9A513156459691E07651B26 /* HybridPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HybridPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		7D38FF6424DBDD88009A4219 /* HybridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HybridView.swift; sourceTree = "<group>"; };
+		7D38FF6624DBE237009A4219 /* HybridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HybridView.swift; path = HybridPod/Classes/HybridView.swift; sourceTree = "<group>"; };
 		8C160C17D803B2D454EF19DEC016E78D /* Pods-HybridPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HybridPod_Tests.modulemap"; sourceTree = "<group>"; };
 		8D4753AC5D8E9EE7E576672FB359202F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9903AAF4EFBD508098D3C87A9B56A7EC /* Pods-HybridPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HybridPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -78,8 +78,8 @@
 		0CE8701599CEA5EDA6F81F4D4EA94295 /* HybridPod */ = {
 			isa = PBXGroup;
 			children = (
+				7D38FF6624DBE237009A4219 /* HybridView.swift */,
 				0A038BF56A8A94AAB22EE2568EFEF2F3 /* ReplaceMe.swift */,
-				7D38FF6424DBDD88009A4219 /* HybridView.swift */,
 				8227A1E820D63C3E81C06E4534F64F81 /* Pod */,
 				7F9FF486F022811AEC9ECD785ECAAC1B /* Support Files */,
 			);
@@ -290,7 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D38FF6524DBDD88009A4219 /* HybridView.swift in Sources */,
+				7D38FF6724DBE237009A4219 /* HybridView.swift in Sources */,
 				9C62662D1B82BB598C30007DABD3D8FE /* HybridPod-dummy.m in Sources */,
 				81572CEC73587359DBDC5DBB9100FA74 /* ReplaceMe.swift in Sources */,
 			);
