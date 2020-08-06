@@ -1,0 +1,6 @@
+use_frameworks!
+target 'HybridPod_Tests' do
+  pod 'HybridPod', :path => '../'
+  
+  
+end

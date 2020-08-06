@@ -1,0 +1,16 @@
+PODS:
+  - HybridPod (0.1.0)
+
+DEPENDENCIES:
+  - HybridPod (from `../`)
+
+EXTERNAL SOURCES:
+  HybridPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HybridPod: 0d20e720795eee165fd0eddf0914d1cb8a579263
+
+PODFILE CHECKSUM: 585586a57bf7037f5888804a37fb01c418b32ee2
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,6 @@
+framework module HybridPod {
+  umbrella header "HybridPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
